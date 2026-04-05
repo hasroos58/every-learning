@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color:burlywood;
+    padding:20px;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.header-logo{
+    font-size:30px;
+    letter-spacing:10px;
+}
+.header-list li{
+    list-style:none;
+    width:140px;
+    line-height:15px;
+    float:right;
+    opacity:0.5;
+    border:1px solid black;
+    border-radius:10ps;
+    display:block;
+    font-weight:narmal;
+}
+.header-list li:hover {
+    background-color:red;
+    opacity:1;
+}
+.question {
+    float:right;
+    font-weight:bold;
+    color:chartreuse;
+    border:2px solid white;
+    display:block;
+}
+.question:hover {
+    transition:all 1s;
+    background-color:rgba(0,0,255,0.3);
+
+}
+.main {
+    background-color:moccasin;
+}
+.copy-container {
+    background-image:url(https://techgage.com/wp-content/uploads/2015/04/Microsoft-Visual-Studio-Code-Icon.png);
+    background-size:cover;
+    padding:450px 0px;
+}
+.copy-container h1 {
+    text-align:center;
+    border-bottom:2px solid black;
+    padding-top:30px;
+    margin-bottom:30px;
+
+}
+.copy-container h1 span{
+    color:crimson;
+}
+.mokei {
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding: 20px;
+}
+.mokei-image {
+    width:30%;
+    text-align: center;
+    position:relative;
+}
+@media (max-width:670px) {
+    .mokei {
+        display:block;
+    }
+    .mokei-image {
+        width:100%;
+    }
+}
+.color-circle {
+    font-size:20px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.contact-form h3,p {
+    padding-top:20px;
+}
+.fa-facebook {
+    color:blue;
+}
+input,textarea {
+    border:1px solid black;
+    width:200px;
+    margin-top:10px;
+    height:80px;
+
+}
+input {
+    height:35px;
+}
+.contact-submit {
+    width:50px;
+    background-color:#dee7ec;
+    color:dimgrey;
+    box-shadow:2px 2px black;
+}
+.contact-submit:hover {
+    color:black;
+    background-color:darkgray;
+}
+.contact-submit:active {
+    box-shadow:none;
+    position:relative;
+    top:2px;
+    left:2px;
+    
+}
+.footer{
+    background-color:lightsteelblue;
+}
+.footer-list {
+    width:25%;
+}
